@@ -7,6 +7,10 @@ Netflix App written in Swift language.
 <img src="https://user-images.githubusercontent.com/42292755/179437254-85c700c4-29ef-4784-9ebe-e006aa1b9fe8.png" width="200" height="400" align="center"/>
 
 
+<img src="https://user-images.githubusercontent.com/42292755/179439657-23d53c50-fd8d-4325-ac33-3687c56af912.mov" width="200" height="400"/>
+
+
+
 
 
 

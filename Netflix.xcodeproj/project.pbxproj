@@ -13,6 +13,7 @@
 		058D1871289AE01600771948 /* Netflix.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 058D186F289AE01600771948 /* Netflix.xcdatamodeld */; };
 		058D1873289AE01800771948 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058D1872289AE01800771948 /* Assets.xcassets */; };
 		058D1876289AE01800771948 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058D1874289AE01800771948 /* LaunchScreen.storyboard */; };
+		05EAAE3F289B8DAE00A9CE81 /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EAAE3E289B8DAE00A9CE81 /* CollectionViewTableViewCell.swift */; };
 		05F686B8289AF08D00D3BD0C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F686B7289AF08D00D3BD0C /* HomeViewController.swift */; };
 		05F686BA289AF0CF00D3BD0C /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F686B9289AF0CF00D3BD0C /* UpcomingViewController.swift */; };
 		05F686BC289AF0F500D3BD0C /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F686BB289AF0F500D3BD0C /* SearchViewController.swift */; };
@@ -28,6 +29,7 @@
 		058D1872289AE01800771948 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		058D1875289AE01800771948 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		058D1877289AE01800771948 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05EAAE3E289B8DAE00A9CE81 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		05F686B7289AF08D00D3BD0C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		05F686B9289AF0CF00D3BD0C /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
 		05F686BB289AF0F500D3BD0C /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +66,11 @@
 		058D1865289AE01600771948 /* Netflix */ = {
 			isa = PBXGroup;
 			children = (
+				05EAAE3D289B8D5E00A9CE81 /* Managers */,
+				05EAAE3C289B8D5400A9CE81 /* Resources */,
+				05EAAE3B289B8D1300A9CE81 /* Models */,
+				05EAAE39289B8CF900A9CE81 /* Views */,
+				05EAAE3A289B8D0100A9CE81 /* ViewModels */,
 				05F686B6289AF01B00D3BD0C /* Controllers */,
 				058D1866289AE01600771948 /* AppDelegate.swift */,
 				058D1868289AE01600771948 /* SceneDelegate.swift */,
@@ -74,6 +81,42 @@
 				058D186F289AE01600771948 /* Netflix.xcdatamodeld */,
 			);
 			path = Netflix;
+			sourceTree = "<group>";
+		};
+		05EAAE39289B8CF900A9CE81 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				05EAAE3E289B8DAE00A9CE81 /* CollectionViewTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		05EAAE3A289B8D0100A9CE81 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		05EAAE3B289B8D1300A9CE81 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		05EAAE3C289B8D5400A9CE81 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		05EAAE3D289B8D5E00A9CE81 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 		05F686B6289AF01B00D3BD0C /* Controllers */ = {
@@ -161,6 +204,7 @@
 				05F686BE289AF12C00D3BD0C /* DownloadsViewController.swift in Sources */,
 				05F686B8289AF08D00D3BD0C /* HomeViewController.swift in Sources */,
 				058D186B289AE01600771948 /* MainTanBarViewController.swift in Sources */,
+				05EAAE3F289B8DAE00A9CE81 /* CollectionViewTableViewCell.swift in Sources */,
 				058D1867289AE01600771948 /* AppDelegate.swift in Sources */,
 				058D1871289AE01600771948 /* Netflix.xcdatamodeld in Sources */,
 				058D1869289AE01600771948 /* SceneDelegate.swift in Sources */,

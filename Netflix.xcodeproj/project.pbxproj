@@ -13,6 +13,7 @@
 		058D1871289AE01600771948 /* Netflix.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 058D186F289AE01600771948 /* Netflix.xcdatamodeld */; };
 		058D1873289AE01800771948 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058D1872289AE01800771948 /* Assets.xcassets */; };
 		058D1876289AE01800771948 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058D1874289AE01800771948 /* LaunchScreen.storyboard */; };
+		05E1FBB8289CF7660023B7FB /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E1FBB7289CF7660023B7FB /* HeroHeaderUIView.swift */; };
 		05EAAE3F289B8DAE00A9CE81 /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EAAE3E289B8DAE00A9CE81 /* CollectionViewTableViewCell.swift */; };
 		05F686B8289AF08D00D3BD0C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F686B7289AF08D00D3BD0C /* HomeViewController.swift */; };
 		05F686BA289AF0CF00D3BD0C /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F686B9289AF0CF00D3BD0C /* UpcomingViewController.swift */; };
@@ -29,6 +30,7 @@
 		058D1872289AE01800771948 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		058D1875289AE01800771948 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		058D1877289AE01800771948 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05E1FBB7289CF7660023B7FB /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 		05EAAE3E289B8DAE00A9CE81 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		05F686B7289AF08D00D3BD0C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		05F686B9289AF0CF00D3BD0C /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				05EAAE3E289B8DAE00A9CE81 /* CollectionViewTableViewCell.swift */,
+				05E1FBB7289CF7660023B7FB /* HeroHeaderUIView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				05F686BA289AF0CF00D3BD0C /* UpcomingViewController.swift in Sources */,
+				05E1FBB8289CF7660023B7FB /* HeroHeaderUIView.swift in Sources */,
 				05F686BC289AF0F500D3BD0C /* SearchViewController.swift in Sources */,
 				05F686BE289AF12C00D3BD0C /* DownloadsViewController.swift in Sources */,
 				05F686B8289AF08D00D3BD0C /* HomeViewController.swift in Sources */,

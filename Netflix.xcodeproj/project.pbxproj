@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0511F660289E3D2B003B1F30 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0511F65F289E3D2B003B1F30 /* APICaller.swift */; };
 		0511F662289E4231003B1F30 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0511F661289E4231003B1F30 /* Movie.swift */; };
+		0511F664289E47A1003B1F30 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0511F663289E47A1003B1F30 /* Extensions.swift */; };
+		0511F666289E4B68003B1F30 /* Tv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0511F665289E4B68003B1F30 /* Tv.swift */; };
 		058D1867289AE01600771948 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058D1866289AE01600771948 /* AppDelegate.swift */; };
 		058D1869289AE01600771948 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058D1868289AE01600771948 /* SceneDelegate.swift */; };
 		058D186B289AE01600771948 /* MainTanBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058D186A289AE01600771948 /* MainTanBarViewController.swift */; };
@@ -26,6 +28,8 @@
 /* Begin PBXFileReference section */
 		0511F65F289E3D2B003B1F30 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		0511F661289E4231003B1F30 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		0511F663289E47A1003B1F30 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		0511F665289E4B68003B1F30 /* Tv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tv.swift; sourceTree = "<group>"; };
 		058D1863289AE01600771948 /* Netflix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Netflix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		058D1866289AE01600771948 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		058D1868289AE01600771948 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				0511F661289E4231003B1F30 /* Movie.swift */,
+				0511F665289E4B68003B1F30 /* Tv.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -116,6 +121,7 @@
 		05EAAE3C289B8D5400A9CE81 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0511F663289E47A1003B1F30 /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -216,8 +222,10 @@
 				05F686B8289AF08D00D3BD0C /* HomeViewController.swift in Sources */,
 				058D186B289AE01600771948 /* MainTanBarViewController.swift in Sources */,
 				05EAAE3F289B8DAE00A9CE81 /* CollectionViewTableViewCell.swift in Sources */,
+				0511F664289E47A1003B1F30 /* Extensions.swift in Sources */,
 				058D1867289AE01600771948 /* AppDelegate.swift in Sources */,
 				0511F660289E3D2B003B1F30 /* APICaller.swift in Sources */,
+				0511F666289E4B68003B1F30 /* Tv.swift in Sources */,
 				058D1871289AE01600771948 /* Netflix.xcdatamodeld in Sources */,
 				058D1869289AE01600771948 /* SceneDelegate.swift in Sources */,
 			);
